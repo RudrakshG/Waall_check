@@ -10,7 +10,7 @@ function preload(){
 }
 
 function setup() {
-	canvas = createCanvas(windowWidth - 20, windowHeight - 30);
+	canvas = createCanvas(windowWidth - 10, windowHeight - 30);
 this.Instructions=createButton("Instructions:Read Before Playing or you'll Loss");
 this.Instructions.position(height/35 +30, width/19);
 wall= createSprite(430,200,50,10);
